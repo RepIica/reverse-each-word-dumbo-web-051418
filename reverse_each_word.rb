@@ -1,10 +1,9 @@
 def reverse_each_word(string)
-  arr = ["chicken"]
+  arr = []
   string.split.each do |word|
     arr.push(word.reverse)
   end
-  string.split
   puts arr
 end
 
-reverse_each_word("Blue Beam")
+reverse_each_word("blue")
