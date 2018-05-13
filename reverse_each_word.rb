@@ -3,7 +3,5 @@ def reverse_each_word(string)
   string.split.each do |word|
     arr.push(word.reverse)
   end
-  puts arr
+  arr
 end
-
-reverse_each_word("blue BMW")
