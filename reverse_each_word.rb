@@ -6,4 +6,4 @@ def reverse_each_word(string)
   puts arr
 end
 
-reverse_each_word("blue")
+reverse_each_word("blue BMW")
