@@ -1,5 +1,5 @@
 def reverse_each_word(string)
-  arr = []
+  arr = ["chicken"]
   string.split.each do |word|
     arr.push(word.reverse)
   end
