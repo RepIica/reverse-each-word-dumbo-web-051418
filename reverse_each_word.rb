@@ -3,5 +3,7 @@ def reverse_each_word(string)
   string.split.each do |word|
     arr.push(word.reverse)
   end
-  arr.flatten
+  arr.each do |word|
+    word
+  end
 end
