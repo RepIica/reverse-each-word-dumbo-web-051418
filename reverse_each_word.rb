@@ -4,6 +4,7 @@ def reverse_each_word(string)
     arr.push(word.reverse)
   end
   string.split
+  arr
 end
 
 reverse_each_word("Blue")
