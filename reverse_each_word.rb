@@ -5,7 +5,7 @@ def reverse_each_word(string)
   # end
   # arr.join(" ")
   
-  string.split.collect do |word|
+  string.split.collect {|word| word.reverse.join(" ")}
     
   end
 end
