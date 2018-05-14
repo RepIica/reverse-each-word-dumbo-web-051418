@@ -5,4 +5,5 @@ def reverse_each_word(string)
   # end
   # arr.join(" ")
   
+  string.split.collect {|word|}
 end
